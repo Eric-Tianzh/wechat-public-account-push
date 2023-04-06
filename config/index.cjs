@@ -41,8 +41,8 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      PROVINCE: '北京',
-      CITY: '北京',
+      province: '北京',
+      city: '北京',
       horoscopeDate: '10-14',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -69,9 +69,9 @@ const USER_CONFIG = {
       name: 't',
       id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
       useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
-      province: '',
-      city: '',
-      horoscopeDate: '',
+      province: '北京',
+      city: '北京',
+      horoscopeDate: '08-18',
       horoscopeDateType: '',
       customizedDateList: [],
       courseSchedule: null
