@@ -6,26 +6,43 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-
+  USE_PASSAGE: 'wechat-test',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wxdb71cdb739c66835',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'b9ae0f1a5980fcc893ed0f5bb9dfc67b',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '北京',
+  CITY: '北京',
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
 
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+    
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: true,
+    },
+  
+  /** 是否给文字设置多彩颜色, 和emoji不兼容 */
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: false,
+  
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小王',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o9Bzu6i0KqjHa4BppJvyNTkIdmLw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '10-14',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -47,17 +64,28 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
+    {
+      name: 't',
+      id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
+      useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
+      province: '',
+      city: '',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      customizedDateList: [],
+      courseSchedule: null
+    },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'wra3wVuZl5DAq8ztNJ96wsXhtv4owjkkW0cu6Ap6iG8',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
     }
   ],
 
