@@ -13,8 +13,7 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'b9ae0f1a5980fcc893ed0f5bb9dfc67b',
 
-  PROVINCE: '北京',
-  CITY: '北京',
+
   SWITCH: {
     /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -42,6 +41,8 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      PROVINCE: '北京',
+      CITY: '北京',
       horoscopeDate: '10-14',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -71,6 +72,17 @@ const USER_CONFIG = {
       province: '',
       city: '',
       horoscopeDate: '',
+      horoscopeDateType: '',
+      customizedDateList: [],
+      courseSchedule: null
+    },
+    {
+      name: 'wc',
+      id: 'o9Bzu6i0KqjHa4BppJvyNTkIdmLw',
+      useTemplateId: 'EaY-12oFE4Zz24hIXbBF63F9z_qsYe5AXiem_Cfqigk',
+      province: '福建',
+      city: '厦门',
+      horoscopeDate: '06-08',
       horoscopeDateType: '',
       customizedDateList: [],
       courseSchedule: null
