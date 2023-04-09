@@ -39,7 +39,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9Bzu6u2ZUOc8bmWr_4EV1M2y0Mk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TLk1W0r-KgV9O9q-UQTV2Ias5Z25WpEjpr_7XB4g-sM',
+      useTemplateId: 'R5UZ-YXjitIHi-toWdJJVW6JgAlgS2v5N9uVtgCEC5g',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       province: '北京',
       city: '北京',
@@ -68,7 +68,7 @@ const USER_CONFIG = {
     {
       name: 't',
       id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
-      useTemplateId: 'TLk1W0r-KgV9O9q-UQTV2Ias5Z25WpEjpr_7XB4g-sM',
+      useTemplateId: 'R5UZ-YXjitIHi-toWdJJVW6JgAlgS2v5N9uVtgCEC5g',
       province: '北京',
       city: '北京',
       horoscopeDate: '08-18',
