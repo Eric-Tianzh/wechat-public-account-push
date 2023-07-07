@@ -37,9 +37,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小王',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9Bzu6u2ZUOc8bmWr_4EV1M2y0Mk',
+      //id: 'o9Bzu6u2ZUOc8bmWr_4EV1M2y0Mk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'E5z8Uyuc3_n2u-CYjn6_UGU80xSHHzna-9xmLifolHs',
+      //useTemplateId: 'E5z8Uyuc3_n2u-CYjn6_UGU80xSHHzna-9xmLifolHs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       province: '北京',
       city: '北京',
@@ -67,8 +67,8 @@ const USER_CONFIG = {
     },
     {
       name: 't',
-      id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
-      useTemplateId: 'E5z8Uyuc3_n2u-CYjn6_UGU80xSHHzna-9xmLifolHs',
+      //id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
+      //useTemplateId: 'E5z8Uyuc3_n2u-CYjn6_UGU80xSHHzna-9xmLifolHs',
       province: '北京',
       city: '北京',
       horoscopeDate: '08-18',
@@ -78,8 +78,8 @@ const USER_CONFIG = {
     },
     {
       name: 'wc',
-      id: 'o9Bzu6i0KqjHa4BppJvyNTkIdmLw',
-      useTemplateId: 'R5UZ-YXjitIHi-toWdJJVW6JgAlgS2v5N9uVtgCEC5g',
+      //id: 'o9Bzu6i0KqjHa4BppJvyNTkIdmLw',
+      //useTemplateId: 'R5UZ-YXjitIHi-toWdJJVW6JgAlgS2v5N9uVtgCEC5g',
       province: '福建',
       city: '厦门',
       horoscopeDate: '06-08',
