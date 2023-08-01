@@ -67,7 +67,7 @@ const USER_CONFIG = {
     },
     {
       name: 't',
-      //id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
+      //id: '',
       //useTemplateId: 'E5z8Uyuc3_n2u-CYjn6_UGU80xSHHzna-9xmLifolHs',
       province: '北京',
       city: '北京',
@@ -97,7 +97,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9Bzu6t46OgmbvJyukftdTP7bn-g',
+      id: '',
     }
   ],
 
